@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Restaurant-Website</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div
+        class="heading flex items-center justify-between bg-red-950 text-white p-5"
+      >
+        <div class="logo">
+          <h1 class="text-3xl font-bold">Logo</h1>
+        </div>
+        <div class="links">
+          <ul class="flex items-center justify-evenly gap-3 xs:hidden">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <div
+              class="login bg-white text-black px-7 py-2 rounded-xl font-bold xs:hidden"
+            >
+              <li><a href="">Login</a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner -->
+
+    <div class="banner bg-slate-500 flex items-center justify-evenly py-7 px-4 flex-wrap">
+      <div class="hotelItem w-1/2 px-5">
+        <h1 class="text-4xl font-bold text-white">Vrindavan Hotel</h1>
+        <p class="py-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi
+          libero.
+        </p>
+        <button class="bg-white text-black px-5 py-2 my-2 rounded-xl font-bold xs:py-2 xs:px-3">
+          <a href="">Contact-Us</a>
+        </button>
+      </div>
+      <div class="bannerImg md:w-1/2 w-full">
+        <img
+          src="./images/resturent.jpeg"
+          alt=""
+          class="w-full px-4 max-h-80"
+        />
+      </div>
+    </div>
+
+    <!-- Food menu -->
+
+    <div class="foodMenu bg-slate-600 py-12 px-12">
+      <h1 class="text-4xl font-bold text-center text-white">Our Menu</h1>
+
+      <div class="foodItem flex items-center justify-evenly gap-5 flex-wrap py-9 xs:pl-2">
+
+
+        <div class="food py-7">
+          <div class="foodImg w-96 h-64 xs:w-[98%] xs:h-[50%]">
+            <img
+              src="./images/burger.webp"
+              alt=""
+              class="md:h-full md:w-full object-cover rounded-xl"
+            />
+          </div>
+          <div class="foodText xs:m-0">
+            <h2 class="text-white text-center font-bold pt-4 text-2xl">Burger</h2>
+            <p class=" text-white font-bold text-center py-5 text-2xl">$3</p>
+            <div class="btn text-center">
+              <button class="bg-white text-black px-5 py-2 rounded-xl font-bold">
+                <a href="">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="food py-7">
+          <div class="foodImg w-96 h-64 xs:w-[98%] xs:h-[50%]">
+            <img
+              src="./images/chaumin.webp"
+              alt=""
+              class="h-full w-full object-cover rounded-xl"
+            />
+          </div>
+          <div class="foodText">
+            <h3 class="text-white text-center font-bold pt-4 text-2xl" >Chowmein</h3>
+            <p class=" text-white font-bold text-center py-5 text-2xl">$3</p>
+            <div class="btn text-center">
+              <button class="bg-white text-black px-5 py-2 rounded-xl font-bold">
+                <a href="">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="food py-7">
+          <div class="foodImg w-96 h-64 xs:w-[98%] xs:h-[50%]">
+            <img
+              src="./images/sandwich.jpg"
+              alt=""
+              class="h-full w-full object-cover rounded-xl"
+            />
+          </div>
+          <div class="foodText">
+            <h3 class="text-white text-center font-bold pt-4 text-2xl" >Sandwich</h3>
+            <p class=" text-white font-bold text-center py-5 text-2xl">$3</p>
+            <div class="btn text-center">
+              <button class="bg-white text-black px-5 py-2 rounded-xl font-bold">
+                <a href="">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="food py-7">
+          <div class="foodImg  h-64 w-96 xs:w-[98%] xs:h-[50%]">
+            <img
+              src="./images/patties.jpg"
+              alt=""
+              class="h-full w-full object-cover rounded-xl"
+            />
+          </div>
+          <div class="foodText">
+            <h3 class="text-white text-center font-bold pt-4 text-2xl" >Patties</h3>
+            <p class=" text-white font-bold text-center py-5 text-2xl">$3</p>
+            <div class="btn text-center">
+              <button class="bg-white text-black px-5 py-2 rounded-xl font-bold">
+                <a href="">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="food py-7">
+          <div class="foodImg h-64 w-96 xs:w-[98%] xs:h-[50%]">
+            <img src="./images/pizza.jpg" alt="" class="h-full w-full object-cover rounded-xl" />
+          </div>
+          <div class="foodText">
+            <h3 class="text-white text-center font-bold pt-4 text-2xl" >Pizza</h3>
+            <p class=" text-white font-bold text-center py-5 text-2xl">$3</p>
+            <div class="btn text-center">
+              <button class="bg-white text-black px-5 py-2 rounded-xl font-bold">
+                <a href="">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="food py-7">
+          <div class="foodImg h-64 w-96 xs:w-[98%] xs:h-[50%]">
+            <img src="./images/samosa.jpg" alt="" class="h-full w-full object-cover rounded-xl" />
+          </div>
+          <div class="foodText">
+            <h3 class="text-white text-center font-bold pt-4 text-2xl" >Samosa</h3>
+            <p class=" text-white font-bold text-center py-5 text-2xl">$3</p>
+            <div class="btn text-center">
+              <button class="bg-white text-black px-5 py-2 rounded-xl font-bold">
+                <a href="">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chef menu -->
+
+    <footer>
+        <div class="chef bg-slate-400">
+            <h1 class="text-4xl text-center font-bold py-4 text-amber-950">Our Chef</h1>
+            <div class="chefs flex justify-center items-center flex-wrap gap-3">
+                   
+                    <div class="img w-[48%] md:w-[30%] text-center my-4 h-72 ">
+                        <img src="./images/sanjeev.jpg" alt="" class="h-48 w-full rounded-xl ">
+                        <div class="info text-center text-white">
+                            <h2 class="text-2xl font-bold py-4">Sanjeev Brar </h2>
+                            <p> Hotel Management (3 years experience )</p>
+                        </div>
+                    </div>
+                
+                    <div class="img w-[48%] md:w-[30%] text-center my-4 h-72 ">
+                        <img src="./images/ranvirbarar.webp" alt="" class="h-48 w-full rounded-xl ">
+                        <div class="info text-center text-white">
+                            <h2 class="text-2xl font-bold py-4">Ranveer Brar </h2>
+                            <p> Hotel Management (3 years experience )</p>
+                        </div>
+                    </div>
+
+                 <div class="img w-[48%] md:w-[30%] text-center my-4 h-72 ">
+                        <img src="./images/ranvir_brar.webp" alt="" class="h-48 w-full  rounded-xl">
+                        <div class="info text-center text-white">
+                            <h2 class="text-2xl font-bold py-4">Delone Brar </h2>
+                            <p> Hotel Management (3 years experience )</p>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
